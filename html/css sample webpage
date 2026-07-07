@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>
+            hello
+        </title>
+    </head>
+    <body> 
+<h1 style="text-align: center;">MY WEBPAGE</h1>    
+    <link rel="stylesheet" href="style.css">
+
+<nav>
+    <div class="logo"></div>
+
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>        
+<img src="C:\Users\eakra\Downloads\welcome img.webp" alt="C:\Users\eakra\Downloads\welcome img.webp" style="display:block; margin:auto; width:200px;">
+<h1 style="text-align:center;">Welcome to my Web Page. This is my simple Webpage.</h1>
+<h1 style="text-align:center;">I am learning HTML and CSS.</h1>
+
+<h2 style="text-align:center;"></h2>
+
+<div style="text-align:center;">
+    <img src="C:\Users\eakra\Downloads\roasted-chicken-thighs-with-roasted-cherry-tomatoes_191095-86607.avif" alt="C:\Users\eakra\Downloads\roasted-chicken-thighs-with-roasted-cherry-tomatoes_191095-86607.avif" width="200">
+    <img src="C:\Users\eakra\Downloads\360_F_613927877_ihqvbNTMabwFkinxq3NfPMWfjuBdWbRV.jpg" alt="C:\Users\eakra\Downloads\360_F_613927877_ihqvbNTMabwFkinxq3NfPMWfjuBdWbRV.jpg"width="200">
+    <img src="C:\Users\eakra\Downloads\yummy.jpg"alt="C:\Users\eakra\Downloads\yummy.jpg" width="200">
+</div>
+<h1 style="text-align:center;">CONTACT</h1>
+<div style="text-align:center;">
+    Username:<input type="text" placeholder="Enter your username"><Br>
+</div>
+<br>
+<div style="text-align:center;">
+    Email:<input type="text" placeholder="Enter your Email">
+</div>
+<div style="text-align:center;">
+    <button type="submit">Submit</button>
+    <br>
+    
+</div>
+<footer style="text-align:center; padding:20px; background:#333; color:white;">
+    © 2026 My Website. All Rights Reserved.
+</footer>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+            {
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        nav{
+            background:#333;
+            padding:15px 30px;
+        }
+
+        nav ul{
+            list-style:none;
+            display:flex;
+            justify-content:center;
+        }
+
+        nav ul li{
+            margin:0 20px;
+        }
+
+        nav ul li a{
+            color:white;
+            text-decoration:none;
+            font-size:18px;
+            font-family:Arial, sans-serif;
+            transition:0.3s;
+        }
+
+        nav ul li a:hover{
+            color:#00bfff;
+        }
