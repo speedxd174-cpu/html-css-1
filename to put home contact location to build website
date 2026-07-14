@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            hii
+        </title>
+    </head>
+    <body>
+        <nav>
+            <div class="HOME">HOME</div>
+
+            <ul>
+                <li>
+    <a href="index.html">home</a>
+                </li>
+                <li><a href="ing.html">Contact</a></li>
+                <Li><a href="ing.html">Location</a></Li>
+            </ul>
+        </nav>
+    </body>
+    <link rel="stylesheet" href="style.css">
+</html>
+
+
+
+
+nav{
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      background:#222;
+      padding:15px 30px;
+}
+ul{
+      display:flex;
+      list-style:none;
+      gap:30px;
+}
+ul li a{
+      text-decoration: none;
+      color:white;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 18px;
+}
+.HOME{
+      color:white;
+      font-size:24px;
+      font-weight:bold;
+}
